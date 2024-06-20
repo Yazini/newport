@@ -85,6 +85,7 @@
     height: auto;
     display: block;
     margin-bottom: 10px;
+
   }
   
   .project h3 {
@@ -136,7 +137,7 @@
     color: #fff;
   }
   
-  @media (min-width: 768px) {
+  @media (min-width: 768px) {}
     nav ul li {
       margin: 0 30px;
     }
@@ -150,5 +151,8 @@
     form textarea {
       max-width: 400px;
     }
-  }
-  
+    .center-horizontal {
+      width: 50%; /* or any desired width */
+      margin: 0 auto;
+    }
+    
